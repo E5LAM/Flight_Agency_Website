@@ -21,6 +21,10 @@
 
 /* //////////// Default Style ////////////////// */
 
+html{
+    overflow-x: hidden;
+}
+
 body {
     background-color: rgb(235, 235, 235);
     text-transform: capitalize;
@@ -112,7 +116,7 @@ h2{
     .navBarOne , .navBarTwo{
         justify-content: space-between;
         padding: 1rem;
-        width: 100%;
+        width: 100vw;
     }
     
     .navBarOne{
