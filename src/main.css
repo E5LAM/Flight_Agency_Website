@@ -106,7 +106,7 @@ h2{
 .navBar {
     position: fixed;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     z-index: 1000;
 
     .navBarOne , .navBarTwo{
